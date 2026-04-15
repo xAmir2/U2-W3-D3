@@ -65,7 +65,7 @@ const renderCart = () => {
     cartList.innerHTML += `
       <li class="list-group-item d-flex justify-content-between align-items-center">
         ${book.title}
-        <button class="btn btn-sm btn-danger" onclick="removeFromCart(${index})">X</button>
+        <button class="btn btn-sm btn-danger" onclick="removeFromCart(${index})">Remove</button>
       </li>
     `;
   });
